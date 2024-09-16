@@ -1,0 +1,24 @@
+<!--Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. 
+A seguir, calcule e mostre o valor da conta a pagar.-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let codigo = Number(prompt(" entre com o codigo do produto"))
+        let quantidade = Number (prompt(" entre com a quantidade do produto"))
+        let valor = Number (prompt(" entre com o valor do codigo escolhido"))
+
+        let total = quantidade * valor
+
+        alert(" O total a pagar é: R$" + total.toFixed(2) + " do codigo:  " + codigo + "  quantidade:  " + quantidade)
+
+
+    </script>
+</body>
+</html>

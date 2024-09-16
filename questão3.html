@@ -1,0 +1,53 @@
+<!-- A empresa ABC resolveu conceder um aumento de salários a seus funcionários de acordo com a tabela abaixo:
+Leia o salário do funcionário e calcule e mostre o novo salário, bem como o valor de reajuste ganho e o índice reajustado, em percentual.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        var sal1 = Number( prompt(" Entre com o salario"))
+        var port1 = 0.15
+        var port2 = 0.12
+        var port3 = 0.10
+           
+         if( sal1 <= 400){
+        
+             reajuste = sal1 * port1
+             novosalario = reajuste +  sal1
+        
+            document.write(" Novo salario é : R$ " + novosalario.toFixed(2) + "<br>")
+            document.write(" O  reajuste foi de:R$ " + reajuste.toFixed(2) + "<br>")
+            document.write(" O percentual foi de :  15% <br>")
+        
+         } if (sal1 > 401 && sal1 <= 800){
+
+           port2 = 0.12
+          reajuste = sal1 * port2
+          novosalario = reajuste +  sal1
+   
+         document.write(" Novo salario é  : R$ " + novosalario.toFixed(2) + "<br>")
+         document.write(" O  reajuste foi de: R$ " + reajuste.toFixed(2) + "<br>")
+         document.write(" O percentual foi de :  12% <br>")
+        } if (sal1 > 801 && sal1 <= 1200){
+
+            port2 = 0.10
+            reajuste = sal1 * port3
+            novosalario = reajuste +  sal1
+
+        document.write(" Novo salario é : R$ " + novosalario.toFixed(2) + "<br>")
+        document.write(" O  reajuste foi de: R$ " + reajuste.toFixed(2) + "<br>")
+        document.write(" O percentual foi de :  10% <br>")
+        }
+      
+            
+
+    </script>
+    
+</body>
+</html>
