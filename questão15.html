@@ -1,0 +1,29 @@
+<!-- calcule o consumo medio de um automovel sendo fornecidos a distancia total percorrida (em km) e total
+ de combustivel em gastos (em litros). O arquivo de entrada contèm dois valores,um valor x distancia percorrida
+  e um valor real em  y representando um total de combustivel gasto, com um digito apos um ponto inicial.
+  Apresente um valor que representa o consumo medio do automevel com 3 casas  após a virgulo, 
+  seguido de mensagem "km/l"-->
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <script>
+        var distancia = Number(prompt(" entre com  a distancia percorrida "))
+        var combustivel = Number( prompt(" entre com o valor do combustive"))
+
+        var consumo = distancia / combustivel
+
+        alert(" a distancia percorrida é:  "+ consumo.toFixed(3) + " km/l " )
+
+
+        
+
+
+    </script>
+    
+ </body>
+ </html>
