@@ -1,0 +1,49 @@
+<!--Leia um valor com duas casas decimais,equivalente ao salario abaixo.Em seguida calcule e mostre o valor
+que está pessoa deve pagar de imposto de renda, segundo a tabela abaixo. Renda de R$ 0.00 á R$2000.00 (isento)
+de R$2000,01 á R$3000,00 (8%), de R$3000,01 á R$4500,00 (18%), acima de R$4500,00 (28%).-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+var salario = Number(prompt("Digite seu salário:"));
+
+if (salario <= 2000) {
+    
+    ale
+alert("Isento");
+} 
+ 
+if (salario > 2000 && salario <= 3000) {
+    
+    
+var imp = salario * 0.08;
+    
+  
+alert("O imposto a ser pago é: " + imp.toFixed(2));
+} 
+if ( salario > 3000 && salario <= 4500){
+
+    var imp = salario * 0.18;
+
+alert("O imposto a ser pago é: " + imp.toFixed(2));
+
+}
+if (  salario > 4500){
+
+var imp = salario * 0.28;
+
+alert("O imposto a ser pago é: " + imp.toFixed(2));
+
+}
+
+    </script>
+    
+</body>
+</html>

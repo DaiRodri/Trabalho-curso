@@ -1,0 +1,40 @@
+<!--Um Posto de combustíveis deseja determinar qual de seus produtos tem a preferência de seus clientes.
+ Escreva um algoritmo para ler o tipo de combustível abastecido (codificado da seguinte forma: 1.Álcool 2
+ .Gasolina 3.Diesel 4.Fim). Caso o usuário informe um código inválido (fora da faixa de 1 a 4) deve ser 
+ solicitado um novo código (até que seja válido-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var n = parseInt(prompt(" entre com um codigo" ))
+
+   if( n == 1){
+    alert ("alcool")
+       alert ("fim")
+   }
+   if( n == 2){
+    alert ("gasolina")
+    alert ("fim")
+   }
+   if( n == 3){
+    alert ("diesel")
+    alert ("fim")
+   }
+   if( n == 4){
+    alert ("fim")
+   }
+    
+   if( n != 1 && n != 2 && n != 3 && n != 4){
+        prompt("digite um código válido")
+        } 
+         
+
+</script>
+    
+</body>
+</html>
